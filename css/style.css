@@ -1,0 +1,124 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-family: 'Helvetica', Arial;
+}
+body{
+    background-color: darkgrey;
+}
+header{
+    padding: 12px 0;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: black;
+}
+main{
+    margin: 40px auto;
+    width: 100%;
+}
+label{
+    color: #333;
+}
+footer{
+    font: 12px/33px arial;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+.title{
+    color: white;
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode',  sans-serif;
+}
+.sub-title{
+    color: lightgray;
+    font-family :'Lucida Sans Unicode',  sans-serif;
+}
+.head-page{
+    color: lightgray;
+    padding: 20px ;
+    background-color: black;
+    border-radius: 10px 10px 0 0;
+}
+.description{
+    padding: 20px 5px;
+}
+.square{
+    margin: 20px auto;
+    border: 2px solid black;
+    width: 100px;
+    padding: 42px 0;
+    color : red;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+.text-rumus{
+    text-align: left;
+}
+.sisi{
+    margin-top: 11px;
+    width: 20%;
+    height: 22px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.page{
+    width: 400px;
+    background-color: lightgrey;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 40px 5%;
+    display: inline-block;
+    vertical-align: top;
+}
+.hitung{
+    width: 20%;
+    height: 24px;
+    border-radius: 5px;
+    border: 1px solid lightblue;
+    background-color: black;
+    color: whitesmoke;
+}
+.output{
+    display: inline-block;
+    text-align: left;
+}
+.reset{
+    width: 20%;
+    height: 20px;
+    font-size: small;
+    border-radius: 5px;
+    border: 1px solid #f20;
+    background-color: orange;
+    color: whitesmoke;
+}
+
+.hitung:hover, .hitung:active{
+    font-size: small;
+    border-color: black;
+    background-color:white;
+    color :black;
+}
+.reset:hover, .reset:active{
+    font-size: smaller;
+    border-color: orange;
+    background-color:red;
+    color :black;
+}
+.editor
+{   text-align: right;
+      width :20%;
+    font-size: smaller;
+    background-color: black;
+    background-position-x:right;
+    color : white;
+    border-radius: 12px;
+    border : 5px solid black;
+}
+.tambah
+{
+    padding :20px 600px;
+    
+}
